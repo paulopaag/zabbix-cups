@@ -2,7 +2,7 @@
 
 ## Zabbix template for monitoring CUPS servers, printers and queues via Zabbix Agent
 
-Written by andre@schild.ws and changed a bit of stuff by paulopaag. (I'm not not very proud of it, so bear with my mistakes, please)
+Written by andre@schild.ws and a bit of stuff changed by paulopaag. (I'm not not very proud of it, so bear with my mistakes, please)
 
 At the moment we only monitor printers and their queues, but not the classes.
 
