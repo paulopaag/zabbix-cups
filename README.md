@@ -24,6 +24,8 @@ Changes need to crontab.
 
 Run crontab -e and add the following:
 ```bash
-*/1 * * * * python3 /etc/zabbix/zabbix_agent2.d/plugins.d/count_cups_jobs.py >/dev/null 2>&1
-*/1 * * * * python3 /etc/zabbix/zabbix_agent2.d/plugins.d/sum_cups_pages.py >/dev/null 2>&1
+*/1 * * * * python3 /etc/zabbix/scripts/count_cups_jobs.py >/dev/null 2>&1
+*/1 * * * * python3 /etc/zabbix/scripts/sum_cups_pages.py >/dev/null 2>&1
 ```
+
+Restart your zabbix agent after.
