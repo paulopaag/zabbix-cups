@@ -18,7 +18,7 @@ directories as shown in the repository.
 - `/etc/zabbix/scripts/discover_cups_printers.pl`
     -> The script doing the actual cups printer discovery. If you place this script in another location, you will have to change sudoers.d and the zabbix files accordingly
 	
-###Stuff I'm not proud of
+### Stuff I'm not proud of
 
 Changes need to crontab.
 
